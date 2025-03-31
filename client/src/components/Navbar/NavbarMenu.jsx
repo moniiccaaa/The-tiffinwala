@@ -37,8 +37,8 @@ export default function NavbarMenu() {
       >
         <MenuItem onClick={() => navigate('/signin')}>Login</MenuItem>
         <MenuItem onClick={() => navigate('/signup')}>Sign Up</MenuItem>
-        {/* <MenuItem onClick={() => navigate('/loginProvider')}>Provider Login</MenuItem>
-        <MenuItem onClick={() => navigate('/registerProvider')}>Provider Registration</MenuItem> */}
+        <MenuItem onClick={() => navigate('/loginProvider')}>Provider Login</MenuItem>
+        <MenuItem onClick={() => navigate('/registerProvider')}>Provider Registration</MenuItem>
       </Menu>
     </div>
   );
